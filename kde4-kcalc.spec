@@ -1,16 +1,16 @@
 #
 %define		_state		stable
 %define		orgname		kcalc
-%define		qtver		4.8.0
+%define		qtver		4.8.3
 
 Summary:	K Desktop Environment - KDE calculator
 Name:		kde4-kcalc
-Version:	4.9.1
+Version:	4.9.3
 Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	6ef4b911509df288a21953994c0117a5
+# Source0-md5:	c779ea68b19aeb4580c0d2e5c1c297a7
 URL:		http://www.kde.org/
 BuildRequires:	automoc4 >= 0.9.88
 BuildRequires:	cmake >= 2.8.0
