@@ -5,12 +5,12 @@
 
 Summary:	K Desktop Environment - KDE calculator
 Name:		kde4-kcalc
-Version:	4.11.4
+Version:	4.12.0
 Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	530d3d3602f60b4212bea3298cccbe90
+# Source0-md5:	1d8d6c6e60129d1d9bf85268b13810e3
 URL:		http://www.kde.org/
 BuildRequires:	automoc4 >= 0.9.88
 BuildRequires:	cmake >= 2.8.0
@@ -20,7 +20,7 @@ BuildRequires:	gmp-devel
 BuildRequires:	kde4-kdebase-devel >= %{version}
 BuildRequires:	qt4-build >= %{qtver}
 BuildRequires:	qt4-qmake >= %{qtver}
-Requires:	kde4-kdebase-workspace >= %{version}
+Requires:	kde4-kdebase-workspace >= 4.11.4
 Obsoletes:	kcalc
 Obsoletes:	kde4-kdeutils-kcalc
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
